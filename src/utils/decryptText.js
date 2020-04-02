@@ -26,5 +26,5 @@ module.exports = function decryptText(text, rotation) {
     }
   })
 
-  return newText;
+  return newText.toLowerCase();
 }

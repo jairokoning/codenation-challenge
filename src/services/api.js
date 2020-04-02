@@ -5,9 +5,3 @@ const api = axios.create({
 })
 
 module.exports = api;
-
-// module.exports = function api(){
-//   return axios.create({
-//     baseURL: 'https://api.codenation.dev/v1/challenge/dev-ps'    
-//   })
-// }

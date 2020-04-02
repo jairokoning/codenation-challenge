@@ -24,7 +24,7 @@ module.exports = {
     const answer = {
       "numero_casas": data.numero_casas,
       "token": data.token,
-      "cifrado": data.cifrado,
+      "cifrado": data.cifrado.toLowerCase(),
       "decifrado": newText,
       "resumo_criptografico": algorithm
     }
